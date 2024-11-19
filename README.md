@@ -1,4 +1,5 @@
 # Для запуска:
+cd djangotutorial
 python manage.py runserver
 
 # Ссылки:

@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>DZ_46</title>
-</head>
-<body>
-    <i>"We are the champions, my friends</i><br>
-    <i>And we'll keep on fighting till the end"</i><br>
-    <i>Queen, We are the champions</i><br>
-</body>
-</html>
+{% extends "base.html" %}
+{% block title%}
+{{title}}
+{%endblock%}
+{% block content %}
+{% load i18n %}
+<i>{% trans '"We are the champions, my friends' %}<br>
+    {% trans 'And we\'ll keep on fighting till the end"'  %}<br>
+    {% trans 'Queen, We are the champions' %}</i>
+{%endblock%}

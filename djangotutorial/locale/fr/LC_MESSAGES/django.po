@@ -1,0 +1,8 @@
+msgid '"We are the champions, my friends'
+msgstr '"Nous sommes les champions, mes amis'
+
+msgid 'And we'll keep on fighting till the end"'
+msgstr 'Et nous continuerons à nous battre jusqu\'à la fin"'
+
+msgid 'Queen, We are the champions'
+msgstr 'Reine, nous sommes les champions'

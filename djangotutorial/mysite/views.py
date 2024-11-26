@@ -1,4 +1,4 @@
-from django.shortcuts import render
+# from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader
 import datetime
@@ -12,7 +12,6 @@ date_now = datetime.datetime.now()
 
 
 def index(request):
-    # output = _('StatusMsg')
     template = loader.get_template("index.html")
     context = {'title': 'DZ_46',
                'cars': cars.items(),
